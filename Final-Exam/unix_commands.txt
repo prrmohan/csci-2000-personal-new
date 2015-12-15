@@ -4,7 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
+tail -130 classlist.csv
 
 
 # part (b)
@@ -24,7 +24,7 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+tail -130 classlist.csv | sort -d
 
 
 # part (d)
